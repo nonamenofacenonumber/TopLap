@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "watch1": "npx tailwindcss -i ./assets/css/style.css -o ./src/css/style.css --watch",
-    "build1": "npx tailwindcss -i ./assets/css/style.css -o ./src/css/style.css --minify",
-    "server1": "live-server ./src"
+    "watchPro": "npx tailwindcss -i ./assets/css/style.css -o ./src/css/style.css --watch",
+    "buildPro": "npx tailwindcss -i ./assets/css/style.css -o ./src/css/style.css --minify",
+    "serverPro": "live-server ./src",
+    "sassPro": "sass --watch  src/scss:src/css"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
